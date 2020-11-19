@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="Assets\CSS\style.css">
+  <title>MCR Oil Tools</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img src="Assets\Images\MCRPOCLogo.png" width="150"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Axial Pyro Torch Fishing Tool</a>
+              <a class="dropdown-item" href="#">Perforating Torch Cutter</a>
+              <a class="dropdown-item" href="RCT.html">Radial Cutting Torch</a>
+              <a class="dropdown-item" href="#">Generator Safety Sleeve</a>
+              <a class="dropdown-item" href="#">Electro-Mechanical Anchor</a>
+              <a class="dropdown-item" href="#">Fire Panel Filter</a>
+              <a class="dropdown-item" href="#">Check Fire Panel</a>
+              <a class="dropdown-item" href="#">Consumable Trigger System</a>
+              <a class="dropdown-item" href="#">Remote Firing Mechanism</a>
+              <a class="dropdown-item" href="#">Performating Pyro Torch</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Downloads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn buttonOutline my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <button type="button" class="btn buttonFilled" id="LoginButtonModalOpen" data-toggle="modal"
+          data-target="#exampleModalCenter">
+          User Log In
+        </button>
+      </div>
+    </nav>
+
+
+
+    <main>
+      <div class="row welcomeBanner">
+        <h1>Welcome to MCR</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 birthdayAndAnniversary">
+          <!-- content here -->
+        </div>
+        <div class="col-md-6">
+          <img src="Assets\Images\MCRHome.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-md-3 birthdayAndAnniversary">
+          <!-- content here -->
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-right">
+            <p>24/7 Support <a href="tel:+817.701.5100">817.701.5100</a> INT | Alternate Number <a
+                href="tel:+682.253.2051">682.253.2051</a></p>
+
+          </div>
+          <div class="col-sm-6" id='vertDividingLine'>
+            <p>Sales Direct: <a href="tel:+817.704.6661">817.704.6661</a> | Bill Boelte: <a
+                href="tel:+337.519.5081">337.519.5081</a></p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <p>7327 Business Place, Arlington, Texas 76001</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4"></div>
+          <div class="socialMediaIcons col-sm-4">
+            <img src="Assets\Images\SocialMediaLogos\FaceBookLogo.png" alt="">
+            <img src="Assets\Images\SocialMediaLogos\InstagramLogo.png" alt="">
+            <img src="Assets\Images\SocialMediaLogos\LinkedInLogo.png" alt="">
+            <img src="Assets\Images\SocialMediaLogos\TwitterLogo.png" alt="">
+            <img src="Assets\Images\SocialMediaLogos\youtubeLogo.png" alt="">
+          </div>
+          <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="copyright">© 2020 MCR Oil Tools, LLC</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">MCR Portal Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="LoginUsername">Username</label>
+              <input type="email" class="form-control" id="LoginUsername" aria-describedby="emailHelp">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-group">
+              <label for="LoginPassword">Password</label>
+              <input type="password" class="form-control" id="LoginPassword">
+            </div>
+            <div class="form-group">
+              <label for="AccessCertNumber">Accesss/Cert Number</label>
+              <input type="password" class="form-control" id="AccessCertNumber" placeholder="6 Digit Number">
+            </div>
+            <!-- <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div> -->
+            <br>
+            <a class="d-block" href="#">Don't have portal access? Click Here</a>
+            <a class="d-block" href="#">Forgot Your Username? Click Here</a>
+            <a class="d-block" href="#">Forgot Your Password? Click Here</a>
+            <a class="d-block" href="#">Forgot Your Access/Certification Number? Click Here</a>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel & Close</button>
+          <button type="submit" class="btn btn-info">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--scripts-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
