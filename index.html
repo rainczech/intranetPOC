@@ -6,6 +6,7 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="Assets\CSS\open-iconic-bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="Assets\CSS\style.css">
   <title>MCR Oil Tools</title>
 </head>
@@ -26,7 +27,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Products
+              Safety
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="#">Axial Pyro Torch Fishing Tool</a>
@@ -42,19 +43,36 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Downloads</a>
+            <a class="nav-link" href="#">Human Resources</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="#">IT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Manufacturing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsletter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Logistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Engineering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Egan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Assembly</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GWS</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn buttonOutline my-2 my-sm-0" type="submit">Search</button>
-        </form>
         <button type="button" class="btn buttonFilled" id="LoginButtonModalOpen" data-toggle="modal"
           data-target="#exampleModalCenter">
-          User Log In
+          Employee Log In
         </button>
       </div>
     </nav>
@@ -62,21 +80,60 @@
 
 
     <main>
-      <div class="row welcomeBanner">
-        <h1>Welcome to MCR</h1>
-      </div>
+      <!-- <div class="row welcomeBanner">
+        <h1>MCR Oil Tools Intranet Site</h1>
+      </div> -->
 
-      <div class="row">
-        <div class="col-md-3 birthdayAndAnniversary">
-          <!-- content here -->
+      <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-2">
+            <div class="card">
+              <div class="card-header">               
+                <img src="Assets\Images\icons\link-intact-2x.png" alt="briefcase icon"> QUICK LINKS
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+              </ul>
+          </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <img src="Assets\Images\MCRHome.png" alt="" class="img-fluid">
         </div>
-        <div class="col-md-3 birthdayAndAnniversary">
-          <!-- content here -->
+        <div class="col-md-2 birthdayAndAnniversary">
+          <div class="container">
+            <h2>Happy Birthday!</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>John Doe</td>
+                  <td class="text-right">January 1</td>
+                </tr>
+                <tr>
+                  <td>John Doe</td>
+                  <td class="text-right">January 1</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+            <h2>Happy MCR Anniversary!</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>John Doe</td>
+                  <td class="text-right">1 year</td>
+                </tr>
+                <tr>
+                  <td>John Doe</td>
+                  <td class="text-right">5 years</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
+    </div>
     </main>
 
     <footer>
@@ -123,7 +180,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">MCR Portal Login</h5>
+          <h5 class="modal-title" id="exampleModalLongTitle">MCR Employee Login</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -139,19 +196,6 @@
               <label for="LoginPassword">Password</label>
               <input type="password" class="form-control" id="LoginPassword">
             </div>
-            <div class="form-group">
-              <label for="AccessCertNumber">Accesss/Cert Number</label>
-              <input type="password" class="form-control" id="AccessCertNumber" placeholder="6 Digit Number">
-            </div>
-            <!-- <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div> -->
-            <br>
-            <a class="d-block" href="#">Don't have portal access? Click Here</a>
-            <a class="d-block" href="#">Forgot Your Username? Click Here</a>
-            <a class="d-block" href="#">Forgot Your Password? Click Here</a>
-            <a class="d-block" href="#">Forgot Your Access/Certification Number? Click Here</a>
           </form>
         </div>
         <div class="modal-footer">

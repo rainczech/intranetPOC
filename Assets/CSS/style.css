@@ -1,6 +1,9 @@
+
 footer {
     background-color: lightgray;
     padding: 10px 0px;
+    border-top: #235F86 solid 5px;
+    margin-top: 10px;
 }
 
 h1{
@@ -8,15 +11,32 @@ h1{
     margin-right: auto;
 }
 
+h2 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+td{
+  color: white;
+  font-size: 1.25rem;
+}
+
+nav{
+  border-bottom: #235F86 solid 10px;
+  margin-bottom: 10px;
+}
+
+
 .buttonFilled {
     background-color: lightslategray;
     color: white;
 }
 
-.buttonOutline {
-    border-color: lightslategray;
-    color: lightslategray;
-}
 
 footer p {
     margin-bottom: 0px;
@@ -38,14 +58,14 @@ a:visited {
 }
 
 .welcomeBanner{
-    background-color: #36454F;
+    background-color: grey;
     color: white;
     padding: 20px 0px;
     margin-bottom: 10px;
 }
 
 .birthdayAndAnniversary {
-    background-color: #36454F;
+    background-color: lightslategray;
 }
 
 .socialMediaIcons {
