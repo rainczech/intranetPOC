@@ -12,8 +12,6 @@
 </head>
 
 <body>
-  <div class="wrapper">
-
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html"><img src="Assets\Images\MCRPOCLogo.png" width="150"></a>
@@ -70,6 +68,10 @@
             <a class="nav-link" href="#">GWS</a>
           </li>
         </ul>
+         <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" aria-label="Search">
+          <button class="btn buttonOutline my-2 my-sm-0" type="submit">Search</button>
+        </form>
         <button type="button" class="btn buttonFilled" id="LoginButtonModalOpen" data-toggle="modal"
           data-target="#exampleModalCenter">
           Employee Log In
@@ -80,25 +82,37 @@
 
 
     <main>
-      <!-- <div class="row welcomeBanner">
-        <h1>MCR Oil Tools Intranet Site</h1>
-      </div> -->
-
       <div class="container-fluid">
       <div class="row justify-content-center">
-        <div class="col-md-2">
+        <div class="col-md-2 profile">
+          <img id="profilePicture" src="Assets\Images\img_avatar2.png" alt="profile picture">
+          <p>Hello, Jane</p>
+          <br>
             <div class="card">
               <div class="card-header">               
                 <img src="Assets\Images\icons\link-intact-2x.png" alt="briefcase icon"> QUICK LINKS
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Vestibulum at eros</li>
+                <li class="list-group-item">Clock In/Out</li>
+                <li class="list-group-item">W4 form</li>
+                <li class="list-group-item">Company Calender</li>
+                <li class="list-group-item">Policies and Procedures</li>
               </ul>
           </div>
+         <br>
+          <div class="card">
+            <div class="card-header">               
+              <img src="Assets\Images\icons\link-intact-2x.png" alt="briefcase icon"> Training Materials
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
         </div>
         <div class="col-md-7">
+          <div class="welcomeBanner">Welcome To The MCR Oil Tools Intranet</div>
           <img src="Assets\Images\MCRHome.png" alt="" class="img-fluid">
         </div>
         <div class="col-md-2 birthdayAndAnniversary">
@@ -136,43 +150,6 @@
     </div>
     </main>
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 text-right">
-            <p>24/7 Support <a href="tel:+817.701.5100">817.701.5100</a> INT | Alternate Number <a
-                href="tel:+682.253.2051">682.253.2051</a></p>
-
-          </div>
-          <div class="col-sm-6" id='vertDividingLine'>
-            <p>Sales Direct: <a href="tel:+817.704.6661">817.704.6661</a> | Bill Boelte: <a
-                href="tel:+337.519.5081">337.519.5081</a></p>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-sm-12">
-            <p>7327 Business Place, Arlington, Texas 76001</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4"></div>
-          <div class="socialMediaIcons col-sm-4">
-            <img src="Assets\Images\SocialMediaLogos\FaceBookLogo.png" alt="">
-            <img src="Assets\Images\SocialMediaLogos\InstagramLogo.png" alt="">
-            <img src="Assets\Images\SocialMediaLogos\LinkedInLogo.png" alt="">
-            <img src="Assets\Images\SocialMediaLogos\TwitterLogo.png" alt="">
-            <img src="Assets\Images\SocialMediaLogos\youtubeLogo.png" alt="">
-          </div>
-          <div class="col-sm-4"></div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="copyright">© 2020 MCR Oil Tools, LLC</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
 
   <!-- modal -->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"

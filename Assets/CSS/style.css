@@ -15,6 +15,7 @@ h2 {
     text-align: center;
     color: white;
     padding-top: 20px;
+    font-size: 1.25rem;
 }
 
 table {
@@ -37,10 +38,9 @@ nav{
     color: white;
 }
 
-
-footer p {
-    margin-bottom: 0px;
-    color: #36454F ;
+.buttonOutline {
+  border-color: lightslategray;
+  color: lightslategray;
 }
 
 a {
@@ -58,38 +58,28 @@ a:visited {
 }
 
 .welcomeBanner{
-    background-color: grey;
+    background-color: #9b5780;
     color: white;
     padding: 20px 0px;
-    margin-bottom: 10px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.profile {
+  text-align: center;
+}
+
+#profilePicture{
+  border-radius: 50%;
+  width: 25%;
 }
 
 .birthdayAndAnniversary {
     background-color: lightslategray;
+    width: 50%;
 }
 
-.socialMediaIcons {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.copyright {
-    font-size: 0.75rem;
-    text-align: center;
-}
-
-div.socialMediaIcons img {
-    width: 40px;
-    display: inline-block;
-    padding-right: 10px;
-}
-
-#vertDividingLine {
-    border-left: grey solid 2px;
-}
 
 #LoginButtonModalOpen{
     margin-left: 10px;
