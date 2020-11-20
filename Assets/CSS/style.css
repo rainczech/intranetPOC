@@ -43,6 +43,11 @@ nav{
     color: white;
 }
 
+.modalButton {
+  background-color: #235F86;
+    color: white;
+}
+
 .buttonOutline {
   border-color: lightslategray;
   color: lightslategray;
