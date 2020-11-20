@@ -1,0 +1,40 @@
+h1 {
+  color: darkgray;
+  text-align: left;
+}
+
+p {
+  margin-bottom: 0%;
+}
+
+.deptHead {
+  border: #86235F solid 5px;
+  background-color: rgb(230, 230, 230);
+}
+
+.departmentBanner {
+  position: relative;
+  overflow: hidden;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+#bannerImage {
+margin-top: -50%;
+width: 100%;
+}
+
+#bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: white;
+  /* background-color: rgba(35,95,134,0.6); */
+  background-color: rgba(0, 0, 0, .25);
+  width: 50%;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  font-size: 3rem;
+  ;
+}
