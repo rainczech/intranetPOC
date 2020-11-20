@@ -1,9 +1,14 @@
 
 footer {
-    background-color: lightgray;
+    background-color: whitesmoke;
     padding: 10px 0px;
     border-top: #235F86 solid 5px;
     margin-top: 10px;
+}
+
+footer p {
+  margin-bottom: 0px;
+  color: #36454F ;
 }
 
 h1{
@@ -43,6 +48,18 @@ nav{
   color: lightslategray;
 }
 
+.announcement {
+  text-align: center;
+  border-radius: 4px;
+  border: #235F86 double 5px;
+  background-color: rgb(242, 242, 242);
+  color:  #9b5780;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding:20px;
+  font-weight: bold;
+}
+
 a {
     color: inherit;
 }
@@ -69,6 +86,12 @@ a:visited {
 .profile {
   text-align: center;
 }
+
+.copyright {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
 
 #profilePicture{
   border-radius: 50%;
